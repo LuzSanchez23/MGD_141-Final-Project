@@ -7,19 +7,19 @@ header::after {
     clear: both;
 }
 body {
-    background-image: linear-gradient(orange, yellow);
-    
-}
-.container-nav {
-    width: 90%;
-    margin: 0 auto;
-  
+    background-image: linear-gradient(rgb(255, 145, 0), rgb(197, 46, 8));
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 .logo {
     float: left;
     padding: 10px 0;
     height: 100px;
     max-width: 100%;
+}
+.container-nav {
+    width: 90%;
+    margin: 0 auto;
 }
 nav {
     float: right;
@@ -46,5 +46,47 @@ nav a:hover {
 }
 .mainimg {
     height: 550px;
-    width: 80%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.calendar {
+    height: auto;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row2 {
+    width: auto;
+    background-color: black;
+    height: 50px;
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(images/nightmare-banner.jpg);
+   
+    
+}
+.row3 {
+    width: 100%;
+    padding: 10px;
+    height: 400px;
+    display: inline-block;
+}
+.texth3 {
+    position:relative;
+    white-space: nowrap;
+    -webkit-animation: flash linear 1s infinite;
+	animation: flash linear 6s infinite;
+}
+@-webkit-keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
 }
