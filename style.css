@@ -45,7 +45,7 @@ nav a:hover {
     color: orangered;
 }
 .mainimg {
-    height: 550px;
+    height: 350px;
     width: 50%;
     display: block;
     margin-left: auto;
@@ -55,14 +55,13 @@ nav a:hover {
 }
 .calendar {
     height: auto;
-    width: 60%;
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 .row2 {
     width: auto;
-    background-color: black;
     height: 50px;
     color: red;
     font-size: 30px;
@@ -70,14 +69,27 @@ nav a:hover {
     margin-left: auto;
     margin-right: auto;
     background-image: url(images/nightmare-banner.jpg);
-   
     
 }
 .row3 {
-    width: 100%;
-    padding: 10px;
-    height: 400px;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 5%;
+}
+ul {
+    list-style: none;
+    display: inline;
+}
+.price, .hours {
+    background-color: rgb(99, 8, 8);
+    color: white;
+    text-align: center;
+    
+}
+.ptittle {
+    color: black;
 }
 .texth3 {
     position:relative;
