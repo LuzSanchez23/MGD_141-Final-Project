@@ -1,5 +1,7 @@
-header {
-    background-color: blue;
+.header {
+    background-image: url(images/multi\ leafs\ bg.jpg);
+    width: 100%;
+    float:inline-start;
 }
 header::after {
     content: '';
@@ -13,40 +15,40 @@ body {
 }
 .logo {
     float: left;
-    padding: 10px 0;
-    height: 100px;
+    height: 80px;
     max-width: 100%;
 }
-.container-nav {
-    width: 90%;
-    margin: 0 auto;
+
+.list {
+    text-align: end;
 }
-nav {
-    float: right;
-}
-nav ul {
+.list ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    
 }
-nav li {
+.list li {
     display: inline-block;
     margin-left: 70px;
     padding-top: 23px;
+    
 }
-nav a {
-    color: yellow;
+.list a {
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 25px;
+    background-color: maroon;
 }
-nav a:hover {
+.list a:hover {
     color: orangered;
+    text-decoration: none;
 }
 .mainimg {
     height: 350px;
-    width: 50%;
+    width: 60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -102,3 +104,38 @@ ul {
 	50% { opacity: .1; } 
 	100% { opacity: 1; }
 }
+.row4 {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 3px;
+    background-color: black;
+}
+.row::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.column img{
+    height: 230px;
+}
+.row5 {
+    text-align: center;
+    color: black;
+    
+}
+.footer-basic {
+    padding:5px;
+    background-image: url(images/multi\ leafs\ bg.jpg);
+    color:#03213f;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:5px;
+    text-align:center;
+    font-size: 30px;
+    color:white;
+    margin-bottom:0;
+  }
