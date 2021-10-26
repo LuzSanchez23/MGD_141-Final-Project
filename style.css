@@ -73,6 +73,15 @@ body {
     background-image: url(images/nightmare-banner.jpg);
     
 }
+.row2 a {
+    text-decoration: none;
+    color: red;
+}
+.row2 a:hover {
+    text-transform: uppercase;
+    color: gray;
+    text-decoration: none;
+}
 .row3 {
     display: flex;
     align-items: center;
@@ -92,6 +101,9 @@ ul {
 }
 .ptittle {
     color: black;
+}
+li :hover {
+    color: green;
 }
 .texth3 {
     position:relative;
@@ -124,7 +136,7 @@ ul {
 .row5 {
     text-align: center;
     color: black;
-    
+    background-color: rgb(214, 179, 61);
 }
 .footer-basic {
     padding:5px;
@@ -139,3 +151,24 @@ ul {
     color:white;
     margin-bottom:0;
   }
+  .animate__bounceInDown {
+    --animate-duration: 3s;
+  }
+  .animate__bounceInLeft {
+    animate-duration: 6s;
+    animation-delay: 2s;
+    
+  }
+ .animate__bounceInRight {
+    animate-duration: 6s;
+    animation-delay: 2s;
+  }
+  .zoom {
+   transition: transform .5s; 
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); 
+  }
+
